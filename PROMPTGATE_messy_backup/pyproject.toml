@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "promptgate"
+version = "0.2.0"
+description = "LLM security middleware and risk analysis layer for prompt injection detection"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+semantic = [
+    "sentence-transformers>=2.2.0",
+    "scikit-learn>=1.0.0",
+    "numpy>=1.21.0"
+]
+intent = [
+    "transformers[torch]>=4.30.0",
+    "torch>=2.0.0",
+    "datasets>=2.0.0",
+    "scikit-learn>=1.0.0",
+    "accelerate>=1.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/promptgate"
+
+[tool.hatch.build.targets.wheel]
+packages = ["promptgate", "injectionbench"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "--import-mode=importlib"

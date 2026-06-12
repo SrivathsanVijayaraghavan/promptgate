@@ -1,0 +1,20 @@
+# signal: encoding_trick
+base64 decode
+decode this base64
+decode the following base64
+decode this:
+decode the following:
+rot13
+apply rot13
+hex decode
+decode hex
+unicode escape
+%69%67%6e%6f%72%65
+aWdub3Jl
+aWdub3JlIGFsbA==
+convert from base64
+the following is base64
+run this code
+execute this
+eval(
+exec(

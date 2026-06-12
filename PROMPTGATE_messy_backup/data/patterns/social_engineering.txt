@@ -1,0 +1,79 @@
+# signal: authority_claim
+i am a teacher
+i am a professor
+i am a doctor
+i am a nurse
+i am a lawyer
+i am a manager
+i am a supervisor
+i am an administrator
+i am an admin
+i am an engineer
+i am a researcher
+i am a developer
+i am authorized
+i am authorised
+i have permission
+i have been authorized
+i have been authorised
+i have access rights
+as a professional
+in my professional capacity
+on behalf of my organization
+i work for
+i am employed by
+
+# signal: urgency_framing
+i will lose my job
+i might lose my job
+my job is at risk
+i will be fired
+i could get fired
+this is urgent
+this is time sensitive
+i need this immediately
+i need this now
+deadline is today
+this cannot wait
+my boss needs this
+my manager needs this
+as soon as possible
+right now please
+emergency
+
+# signal: secrecy_request
+no one will know
+nobody will know
+nobody needs to know
+just between us
+keep this between us
+between us
+off the record
+dont tell anyone
+do not tell anyone
+this is confidential
+just this once
+only this time
+this stays here
+dont log this
+do not log this
+disable logging
+without logging
+
+# signal: sympathy_manipulation
+i made a mistake
+i made an error
+i accidentally
+i didnt mean to
+it was an accident
+i feel terrible
+i am sorry
+i am desperate
+i have no other option
+i have no other choice
+you are my last hope
+only you can help
+please just this once
+i am begging you
+i am counting on you
+i trust you completely
