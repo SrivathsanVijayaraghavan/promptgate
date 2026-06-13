@@ -52,7 +52,7 @@ except ImportError as exc:
 
 # HuggingFace Hub repo hosting the fine-tuned classifier weights.
 # Published once via: huggingface-cli upload <repo> models/intent_classifier
-HF_MODEL_REPO = "SrivathsanVijayaraghavan/promptgate-intent-classifier"
+HF_MODEL_REPO = "srivathsan-vijayaraghavan/promptgate-intent-classifier"
 
 # Local override — where scripts/train_intent_classifier.py saves the model.
 # Checked first so a freshly trained or custom model always takes priority.
